@@ -100,6 +100,7 @@ export default function MiniDrawer() {
       <CssBaseline />
       <AppBar
         position="fixed"
+        style={{background:'transparent'}}
         color="transparent"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
