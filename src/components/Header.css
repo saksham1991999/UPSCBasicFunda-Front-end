@@ -1,0 +1,41 @@
+.Navbar{
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.navbar-1 ul{
+    display: flex;
+}
+.navbar-1 ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.main-text{
+    font-size: 30px;
+    font-weight: 200;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.navbar-2 ul{
+display: flex;
+justify-content: center;
+}
+.navbar-2 ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.list{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 200;
+}
+.navbar-2{
+    padding-bottom: 18%;
+}
