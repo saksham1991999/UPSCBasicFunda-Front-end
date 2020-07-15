@@ -1,5 +1,5 @@
 .Navbar{
-    background-image: url(../images/background.png);
+    background-image: url(../images/background2.png);
     background-size: cover;
 }
 .navbar-1{
@@ -16,26 +16,55 @@
     margin: 0px 10px;
 }
 .main-text{
-    font-size: 30px;
-    font-weight: 200;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+    font-family: Cooper Black;
+    width: 381px;
+height: 46px;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
 }
 .navbar-2 ul{
 display: flex;
 justify-content: center;
+transform: translate(100px,0);
 }
 .navbar-2 ul li{
+
     list-style: none;
-    margin: 0 10px;
+    padding: 0 20px;
 }
 .list{
     text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: 200;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
 }
 .navbar-2{
     padding-bottom: 18%;
+}
+.button{
+    background: #4FC3F7;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+border: 0;
+outline: none;
+width: 80px;
+height: 25px;
 }

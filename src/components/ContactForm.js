@@ -1,7 +1,7 @@
 import React from 'react';
 
 class ContactForm extends React.Component{
-    
+    state={name:[],email:[],phone:[],message:[]};
     render(){
         
         return(

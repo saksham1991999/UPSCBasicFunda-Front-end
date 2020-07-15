@@ -11,8 +11,8 @@ class Header extends React.Component{
                <ul>
                    <li><i className="fas fa-search fa-2x"></i></li>
                    <li><i className="fas fa-shopping-cart fa-2x"></i></li>
-                   <li><button>Login</button></li>
-                   <li><button>Sign up</button></li>
+                   <li><button className="button">Login</button></li>
+                   <li><button className="button">Sign up</button></li>
                </ul>
            </div>
            <div className="navbar-2">
