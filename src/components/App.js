@@ -1,10 +1,9 @@
 import React from 'react';
-import {BrowserRouter,Route,Link} from 'react-router-dom';
+import {BrowserRouter,Route} from 'react-router-dom';
 
 import Homepage from './Homepage';
-import MiniDrawer from './Sidebar';
 import ContactForm from './ContactForm';
-import SideNav from './SideNav'
+import Jteam from './Jteam';
 class App extends React.Component{
     render(){
         return(
@@ -12,7 +11,8 @@ class App extends React.Component{
                 <BrowserRouter>
                 <div>
                     <Route path="/" exact component={Homepage} />
-                    <Route path="/contact" exact component={SideNav} />
+                    <Route path="/contact" exact component={ContactForm} />
+                    <Route path="/join" exact component={Jteam} />
                     </div>
                     </BrowserRouter>
               

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import MiniDrawer from './Sidebar';
 import SideNav from './SideNav';
 import './HomePage.css'
 

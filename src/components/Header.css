@@ -33,12 +33,12 @@ color: #000000;
 .navbar-2 ul{
 display: flex;
 justify-content: center;
-transform: translate(100px,0);
+transform: translate(80px,0);
 }
 .navbar-2 ul li{
 
     list-style: none;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 .list{
     text-decoration: none;

@@ -1,0 +1,70 @@
+.Navba{
+    background-image: url(../images/background6.png);
+    background-size: cover;
+}
+.navba-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.navba-1 ul{
+    display: flex;
+}
+.navba-1 ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.main-text{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: Cooper Black;
+    width: 381px;
+height: 46px;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
+}
+.navba-2 ul{
+display: flex;
+justify-content: center;
+transform: translate(80px,0);
+}
+.navba-2 ul li{
+
+    list-style: none;
+    padding: 0 15px;
+}
+.list{
+    text-decoration: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+}
+.navba-2{
+    padding-bottom: 27%;
+}
+.button{
+    background: #4FC3F7;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+border: 0;
+outline: none;
+width: 80px;
+height: 25px;
+}
