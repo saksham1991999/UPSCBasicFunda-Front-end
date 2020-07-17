@@ -1,13 +1,6 @@
-const { selectmaterial } = require("../components/actions");
+import {combineReducers} from 'redux';
+import notesReducer from './notesReducer';
 
-const materialReducer=()=>{
-return [
-    {test:'working'}
-]
-};
-const SelectedmaterialReducer=(selectedmaterial=null,action)=>{
-if(action.type==='MATERIAL_SELECTED'){
-    return action.payload;
-}
-return selectedmaterial;
-}
+export default combineReducers({
+    notes:notesReducer
+})
