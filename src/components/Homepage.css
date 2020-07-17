@@ -2,3 +2,6 @@
     position: absolute;
     top: 0;
 }
+.n{
+    transform: translate(150px,20px);
+}
