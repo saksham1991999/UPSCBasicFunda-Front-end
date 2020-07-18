@@ -6,7 +6,7 @@ import './Header.css';
 class Header extends React.Component{
     render(){
         return(
-            <div className="Navbar">
+            <div>
            <div className="navbar-1">
                <div className="main-text">Upsc Basic Funda</div>
                <ul>
